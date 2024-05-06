@@ -4,8 +4,8 @@
 # 3) The VM must have the homepage on it.
 # 4) The VM must have an publically accessible link to it.
 # 5) You must Git Push your script to your Github.
-# 6) Outpub file must show 1) Public IP, 2) VPC, 3) Subnet of the VM, 4) Internal IP of the VM.
-
+# 6) Output file must show 1) Public IP, 2) VPC, 3) Subnet of the VM, 4) Internal IP of the VM.
+# 7) Public IP 34.139.85.213
 
 # add compute instance to the VPC
 resource "google_compute_instance" "task2" {
@@ -47,10 +47,10 @@ resource "google_compute_instance" "task2" {
   #   cat <<EOT > /var/www/html/index.html
   #   <html>
   #     <head>
-  #       <title>Welcome to My Homepage</title>
+  #       <title>Saved from Armaggedon</title>
   #     </head>
   #     <body>
-  #       <h1>Welcome to My Homepage!</h1>
+  #       <h1>Saved from Armaggedon!</h1>
   #       <p>This page is served by Apache on a Google Compute Engine VM instance.</p>
   #     </body>
   #   </html>
